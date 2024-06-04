@@ -12,13 +12,10 @@ header {
     padding: 10px 20px;
 }
 
-.logo {
+
+.logo  {
     width: 100px; 
     height: 100px; 
-}
-.logo img {
-    width: 100%; 
-    height: auto;
 }
 
 nav ul {
@@ -45,10 +42,12 @@ main {
 }
 
 .welcome .banner {
-    width: 100%;
-    height: 300px;
-    background-color: #ccc;
-    margin: 20px 0;
+        width: 100%; /* Lebar penuh dari elemen induk */
+        height: 400px; /* Sesuaikan tinggi sesuai kebutuhan */
+        background-image: url('Gedung\ Upn.jpeg'); /* Path gambar */
+        background-size: cover; /* Mengatur ukuran gambar agar menutupi seluruh div */
+        background-position: center; /* Menyelaraskan gambar di tengah */
+        background-repeat: no-repeat; /* Menghindari pengulangan gambar */
 }
 .profile-banner {
     width: 100%;
