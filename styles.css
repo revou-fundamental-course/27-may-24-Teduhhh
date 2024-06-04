@@ -13,7 +13,7 @@ header {
 }
 
 
-.logo  {
+.logo img {
     width: 100px; 
     height: 100px; 
 }
@@ -42,18 +42,20 @@ main {
 }
 
 .welcome .banner {
-        width: 100%; /* Lebar penuh dari elemen induk */
-        height: 400px; /* Sesuaikan tinggi sesuai kebutuhan */
-        background-image: url('Gedung\ Upn.jpeg'); /* Path gambar */
-        background-size: cover; /* Mengatur ukuran gambar agar menutupi seluruh div */
-        background-position: center; /* Menyelaraskan gambar di tengah */
-        background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+        width: 100%; 
+        height: 500px; 
+        background-image: url('Gedung\ Upn.jpeg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
 }
 .profile-banner {
-    width: 100%;
-    height: 300px;
-    background-color: #ccc;
-    margin: 20px 0;
+        width: 100%; 
+        height: 500px; 
+        background-image: url('Gedung\ Upn.jpeg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
 }
 
 .about-school, .vision-mission {
