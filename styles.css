@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    padding: 20px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.welcome .banner {
+    width: 100%;
+    height: 300px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+.profile-banner {
+    width: 100%;
+    height: 300px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.about-school, .vision-mission {
+    margin: 20px 0;
+}
+
+
+.facilitation {
+    text-align: center;
+}
+
+.facilitation-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.facilitation-items .item {
+    text-align: center;
+}
+
+.facilitation-items .item .icon {
+    font-size: 50px;
+}
+
+.message-us {
+    margin-top: 40px;
+}
+
+#message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#message-form label {
+    font-weight: bold;
+}
+
+#message-form input,
+#message-form textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#message-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#message-form button:hover {
+    background-color: #0056b3;
+}
+
+#message-display {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .facilitation-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
